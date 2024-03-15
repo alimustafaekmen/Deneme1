@@ -37,7 +37,7 @@
             // 
             button1.BackColor = SystemColors.GradientInactiveCaption;
             button1.Font = new Font("Segoe UI", 18F);
-            button1.Location = new Point(287, 202);
+            button1.Location = new Point(287, 182);
             button1.Name = "button1";
             button1.Size = new Size(561, 86);
             button1.TabIndex = 0;
@@ -82,7 +82,6 @@
             Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(button1);
-            Cursor = Cursors.Default;
             ForeColor = SystemColors.ActiveCaptionText;
             Name = "Form1";
             Text = "Login Sayfası";
